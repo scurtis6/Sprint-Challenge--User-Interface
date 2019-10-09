@@ -52,6 +52,8 @@ table {
 }
 
 html, body {
+	margin: 0 auto;
+	width: 900px;
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
@@ -61,15 +63,88 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
 p {
     line-height: 1.4;
 }
+header{
+}
+.logo{
+	margin-left: 10px;
+}
+.image{
+	width: 375px;
+	height: ;
+}
+.links{
+    width: 880px;
+    margin: 0px;
+    padding: 20px 0px 30px 0px;
+    display: flex;
+	justify-content: flex-start;
+	justify-content: space-around;
+}
+.links a{
+    color: black;
+}
+.middle-image{
+	margin-left: 50px;
+}
+.collaboration{
+	margin-left: -35px;
+}
+.about{
+	word-wrap: break-word;
+	border-bottom: 1px dashed black;
+	padding: 20px 0px 20px 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.top-content{
+	width: 90%;
+	display: flex;
+	justify-content: space-evenly;
+	word-wrap: normal;
+	margin: 50px;
+}
+h2{
+	padding-top: 10px;
+}
+button{
+	padding: 15px;
+}
+p{
+	padding-bottom: 15px;
+	width: 90%;
+	
+}
+.middle-content{
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	word-wrap: normal;
+	margin: 50px;
+}
+.bottom-content{
+	margin-left: 50px;
+	margin-bottom: 25px;
+	margin-right: -50px;
+}
+footer nav a{
+	color: white;
+	
+}
+footer nav {
+	width: 60%;
+	text-align: left;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: black;
+	margin-left: 50px;
+	margin-right: 30px;
+	padding: 15px 20px 15px 0px;
+}
 
-
-
-
-
-
-
-
+button{
+	border-radius: 12px;
+	background-color: white;
+}
