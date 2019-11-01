@@ -135,33 +135,53 @@ p {
 
 .middle-content .boxes .box:first-child {
     background-color: teal;
+    animation-name: background-change;
+    animation-duration: 3s;
 }
 .middle-content .boxes .box:nth-child(2){
     background-color: gold;
+    animation-name: change-color;
+    animation-duration: 4s;
 }
 .middle-content .boxes .box:nth-child(3){
     background-color: cadetblue;
+    animation-name: background-change;
+    animation-duration: 3s;
 }
 .middle-content .boxes .box:nth-child(4){
     background-color: coral;
+    animation-name: change-color;
+    animation-duration: 4s;
 }
 .middle-content .boxes .box:nth-child(5){
     background-color: crimson;
+    animation-name: background-change;
+    animation-duration: 3s;
 }
 .middle-content .boxes .box:nth-child(6){
     background-color: forestgreen;
+    animation-name: change-color;
+    animation-duration: 4s;
 }
 .middle-content .boxes .box:nth-child(7){
     background-color: darkorchid;
+    animation-name: background-change;
+    animation-duration: 3s;
 }
 .middle-content .boxes .box:nth-child(8){
     background-color: hotpink;
+    animation-name: change-color;
+    animation-duration: 4s;
 }
 .middle-content .boxes .box:nth-child(9){
     background-color: indigo;
+    animation-name: background-change;
+    animation-duration: 3s;
 }
 .middle-content .boxes .box:last-child{
     background-color: dodgerblue;
+    animation-name: change-color;
+    animation-duration: 4s;
 }
 .bottom-content {
     display: flex;
@@ -283,4 +303,12 @@ h1{
     border: 1px solid gray;
     padding: 5px 10px;
     margin-right: 50px;
+}
+@keyframes change-color{
+    form {color: purple;}
+    to {color: red;}
+}
+@keyframes background-change{
+    form {background-color:unset;}
+    to {background-color: black;}
 }
