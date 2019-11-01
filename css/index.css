@@ -195,3 +195,9 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* this is code for the about index*/
+.about-image{
+    display: block;
+    width: 800px;
+    margin: 0 auto 30px auto;
+}
