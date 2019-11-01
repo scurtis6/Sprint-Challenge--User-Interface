@@ -314,12 +314,17 @@ h1{
     to {background-color: black;}
 }
 /* this is code for the blog page*/
+.blog-image{
+    display: block;
+    margin: 0 auto 0 auto;
+}
 .blog-content{
     width: 700px;
-    margin: 10px 0 20px 100px;
+    margin: 0 auto 0 auto;
+    padding-top: 20px;
 }
 .blog-content p{
     margin-bottom: 20px;
     border-bottom: 1px dotted black;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
