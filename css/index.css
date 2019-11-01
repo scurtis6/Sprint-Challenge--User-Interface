@@ -201,3 +201,15 @@ footer nav a {
     width: 800px;
     margin: 0 auto 30px auto;
 }
+
+.about-text{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.about-text h2{
+ margin-left: 20px;   
+}
+.about-text p{
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
