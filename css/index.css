@@ -70,7 +70,24 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.nav-bar{
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
 
+}
+.nav-bar img{
+    margin-left: 10px;
+}
+.nav-bar nav a{
+    
+    
+}
+.top-image{
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
