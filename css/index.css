@@ -304,6 +304,7 @@ h1{
     padding: 5px 10px;
     margin-right: 50px;
 }
+/* this is code for animations*/
 @keyframes change-color{
     form {color: purple;}
     to {color: red;}
@@ -311,4 +312,14 @@ h1{
 @keyframes background-change{
     form {background-color:unset;}
     to {background-color: black;}
+}
+/* this is code for the blog page*/
+.blog-content{
+    width: 700px;
+    margin: 10px 0 20px 100px;
+}
+.blog-content p{
+    margin-bottom: 20px;
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
 }
