@@ -74,19 +74,23 @@ p {
     display: flex;
     width: 800px;
     margin: 0 auto;
-
+    justify-content: space-around;
+    padding: 40px 0;
 }
-.nav-bar img{
-    margin-left: 10px;
+.nav-bar .logo{
+    margin-right: -30px;
+    margin-left: -37px;
 }
-.nav-bar nav a{
-    
+.nav-bar a{
+    margin-top: 22px;
+    color: black;
+    text-decoration: none;
     
 }
 .top-image{
     display: block;
     width: 800px;
-    margin: 0 auto;
+    margin: 0 auto 30px auto;
 }
 .top-content {
     display: flex;
